@@ -1,0 +1,493 @@
+@media only screen and (min-width: 600px) {
+    .logo-holder {
+        left: 34%;
+    }
+    .head h1 {
+        font-size: 40px;
+    }
+    h4 {
+        font-size: 25px;
+    }
+    .head {
+        margin-bottom: 0px;
+    }
+    .container .box .content {
+        padding: 60px;
+    }
+    .container .box .content h2 {
+        margin-bottom: 72px;
+    }
+    .container {
+        padding: 102px;
+    }
+    .image-holder {
+        width: 581px;
+        height: 318px;
+        margin-bottom: 10px;
+    }
+    .wrapper strong {
+        font-size: 28px;
+    }
+    .wrapper h3 {
+        border-bottom: none;
+    }
+    .wrapper p {
+        font-size: 23px;
+    }
+    section p {
+        margin-bottom: 10px;
+        font-size: 17px;
+    }
+    .reservation-btn a {
+        margin: 20px 33px;
+    }
+    .contact {
+        bottom: 92px;
+        right: 10%;
+    }
+    .carousel-container {
+        overflow: hidden;
+    }
+    .social-media-holder {
+        left: 14%;
+        bottom: 30%;
+    }
+    .social-media-holder div {
+        margin-right: 30px;
+    }
+    .bottom-info {
+        left: 35%;
+    }
+    .gallery {
+        grid-template-columns: 1fr;
+        grid-auto-rows: 400px;
+    }
+    /*suggestion-section*/
+    .card .image {
+        max-width: 500px;
+    }
+    .suggestion-section {
+        margin-bottom: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* tablet services section*/
+    .hotel-services {
+        margin-top: 70px;
+        position: relative;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .services-text {
+        position: absolute;
+        top: -65px;
+    }
+    .hotel-services section {
+        width: 260px;
+    }
+    .bottom {
+        transform: translateY(-137%);
+    }
+    /* tablet about-page*/
+    .about-banner .about-text {
+        font-size: 23px;
+    }
+    .about-banner .img-holder {
+        width: 100%;
+    }
+    /* tablet room-gallery*/
+    .check-in-out {
+        width: auto;
+        margin-left: -110px;
+    }
+    .single-room-text {
+        top: 30%;
+        right: 10%;
+    }
+    .grid-wrapper h2 {
+        text-align: center;
+        font-size: 28px;
+    }
+    .check-in-out input {
+        margin-left: 150px;
+        height: 45px;
+        width: 51%;
+    }
+    .check-in-out label {
+        margin-left: 155px;
+    }
+    #mobile-submt-btn {
+        height: 45px;
+        width: 125px;
+    }
+    .apartment-text {
+        font-size: 28px;
+    }
+    .room-text {
+        font-size: 28px;
+    }
+    /* tablet booking page*/
+    .select-css {
+        width: 30%;
+    }
+    .input-css {
+        height: 45px;
+        display: block;
+        width: 37%;
+    }
+    /*comments*/
+    .titleBox label {
+        font-size: 20px;
+    }
+    .actionBox input {
+        font-size: 18px;
+    }
+    .actionBox button {
+        width: 110px;
+        height: 40px;
+    }
+}
+
+
+/* Desktop */
+
+@media only screen and (min-width: 1200px) {
+    .navbar {
+        display: none;
+    }
+    .menu-wrap {
+        display: none;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    .head {
+        height: 650px;
+        margin-bottom: 40px;
+    }
+    .owl-carousel img {
+        width: 100%;
+        height: 727px;
+    }
+    #prevBtn {
+        display: inline-block;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 50%;
+        z-index: 10;
+        left: 5%;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    #nextBtn {
+        display: inline-block;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 50%;
+        z-index: 10;
+        right: 5%;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .logo-holder {
+        left: 15px;
+    }
+    .nav-links {
+        display: inline-block;
+        position: absolute;
+        left: 40%;
+        top: 28px;
+    }
+    .nav-links a {
+        color: #fff;
+        display: inline-block;
+        text-decoration: none;
+        font-family: 'Julius Sans One', sans-serif;
+        font-weight: bold;
+        margin-right: 35px;
+        padding: 5px 25px;
+        border-left: 1px solid #ff0000;
+        border-right: 1px solid #ff0000;
+        transition: all 0.3s ease-in;
+    }
+    .nav-links a:hover {
+        color: rgb(177, 174, 174);
+    }
+    .nav-reservation {
+        display: inline-block;
+        position: absolute;
+        left: 84%;
+        top: 23px;
+    }
+    .book-btn {
+        position: relative;
+        display: inline-block;
+        color: #fff;
+        text-decoration: none;
+        background-color: #ff0000;
+        padding: 6px 10px;
+        z-index: 1;
+        transition: all 0.3s ease-in;
+    }
+    .book-btn::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.4);
+        z-index: -1;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: 200ms ease-in;
+    }
+    .book-btn:hover::after {
+        transform: scaleX(1);
+        transform-origin: right;
+        color: #ff0000;
+    }
+    .slider p {
+        font-size: 20px;
+    }
+    .slider img {
+        width: 200px;
+        height: 200px;
+        right: 15%;
+        top: 10%;
+    }
+    .slider {
+        margin-bottom: 80px;
+    }
+    .image-holder {
+        max-width: 440px;
+        height: 300px;
+    }
+    /* quick-review section*/
+    .click-img-holder,
+    .img-footer {
+        display: none;
+    }
+    .container .box .content h2 {
+        position: relative;
+    }
+    .overview-text p {
+        font-size: 30px;
+        animation: yourAnimation 1s forwards 1s ease-in;
+        color: #5C7AFF;
+    }
+    .overview-text {
+        margin-bottom: 0;
+    }
+    .container {
+        background: #fff;
+        margin-bottom: 40px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .container .box .content {
+        padding: 45px;
+    }
+    .container .box {
+        width: 450px;
+        height: 440px;
+    }
+    .darkened-img {
+        display: inline-block;
+    }
+    /*Suggestion section*/
+    .icon-visibility {
+        display: none;
+    }
+    .bottom {
+        transform: translateY(-132%);
+    }
+    .card .image {
+        max-width: 400px;
+    }
+    .suggestion-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    /*footer-section*/
+    .footer-hotel-logo {
+        display: inline-block;
+        font-family: 'Dancing Script', cursive;
+        font-size: 28px;
+    }
+    footer a {
+        transition: all 0.2s ease-in;
+    }
+    footer a:hover {
+        color: rgb(197, 194, 194);
+    }
+    .contact {
+        bottom: 90px;
+        right: 16%;
+        transition: all 0.3s ease-in-out;
+    }
+    .social-media-holder {
+        left: 16%;
+        bottom: 60%;
+    }
+    .social-media-holder div {
+        cursor: pointer;
+        width: 35px;
+        height: 35px;
+    }
+    .contact:hover {
+        background-color: #fff;
+        color: rgb(100, 100, 100);
+    }
+    .bottom-info {
+        left: 42%;
+    }
+    /* Try New Layout*/
+    @keyframes yourAnimation {
+        0% {
+            transform: scale(0.7) skewY(20deg);
+            opacity: 0;
+        }
+        100% {
+            transform: rotate(xx) scale(0.7) skewY(0);
+            opacity: 1;
+        }
+    }
+    .overview-text p {
+        margin-bottom: 40px;
+        font-size: 30px;
+        animation: yourAnimation 1s forwards 1s ease-in;
+        color: #5C7AFF;
+    }
+    /*services-section desktop*/
+    .hotel-services {
+        background-color: #8EA492;
+        margin-bottom: 40px;
+        padding: 20px;
+        margin-top: 40px;
+    }
+    .hotel-services .main-p {
+        font-size: 25px;
+        margin-top: 5px;
+    }
+    /*contact and location desktop*/
+    .contact-location-wrapper {
+        justify-content: space-evenly;
+        flex-direction: row;
+        position: relative;
+    }
+    #map {
+        height: 650px;
+    }
+    .google-map {
+        width: 600px;
+        height: 300px;
+    }
+    .beach-video {
+        position: absolute;
+        width: 40%;
+        right: 192px;
+        top: 60%;
+    }
+    .video {
+        height: 300px;
+    }
+    /*comments section*/
+    .customer-comments {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        padding-bottom: 40px;
+        margin-top: 110px;
+    }
+    .comment-container {
+        margin-top: 4%;
+        margin-left: 21%;
+    }
+    .stars-holder img {
+        height: 80px;
+    }
+    /* Gallery */
+    .gallery {
+        grid-template-columns: auto auto auto;
+        grid-auto-rows: 400px;
+    }
+    .apartment-img {
+        height: 400px;
+        margin-bottom: 20px;
+    }
+    .apartments-title h2 {
+        padding-top: 12px;
+        display: inline-block;
+    }
+    .booking-form {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 70px;
+    }
+    .check-in-out {
+        flex-direction: row;
+    }
+    .check-out {
+        margin-left: -100px;
+    }
+    .btn-holder {
+        margin: 0 20px 0 50px;
+    }
+    .btn-holder button {
+        height: 35px;
+    }
+    .check-in-out {
+        width: 35%;
+        display: flex;
+        margin-top: 10px;
+    }
+    /* desktop rooms-gallery*/
+    .rooms-gallery .navigation {
+        position: relative;
+    }
+    .single-room-img {
+        height: 400px;
+    }
+    .main-info {
+        flex-direction: row;
+        padding: 20px;
+    }
+    .main-info h2 {
+        color: #fff;
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .grid-wrapper {
+        text-align: center;
+        font-size: 23px;
+        margin-top: 40px;
+    }
+    /* Booking */
+    .booking-container div {
+        margin-left: 120px;
+        margin-top: 22px;
+    }
+    .select-css {
+        width: 20%;
+    }
+    .input-css {
+        width: 24%;
+        display: block;
+    }
+    /*Comment-section*/
+    .detailBox {
+        width: 90%;
+        margin-left: 73px;
+    }
+    .actionBox input {
+        width: 60%;
+    }
+}
