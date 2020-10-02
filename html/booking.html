@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <title>Booking Page</title>
+</head>
+
+<body class="booking-page">
+
+    <nav class="navigation">
+
+        <nav class="navbar">
+            <span class="open-slide">
+          <a href="#" onclick="openSlideMenu()">
+              <svg width='30' height='30'>
+                  <path d="M0,5,30,5" stroke="#fff"
+                   stroke-width="5"/>
+                  <path d="M0,14,30,14" stroke="#fff"
+                   stroke-width="5"/>
+                  <path d="M0,23,30,23" stroke="#fff"
+                   stroke-width="5"/>
+              </svg>
+          </a>
+          </span>
+            <div class="phone-icon">
+
+            </div>
+        </nav>
+
+        <div id="sideMenu" class="side-nav">
+            <a href="#" class="btn-close" onclick="CloseSlideMenu()">&times;</a>
+            <a href="../html/gallery.html">Apartaments</a>
+            <a href="../html/rooms.html">Rooms</a>
+            <a href="../html/booking.html">Book Now</a>
+        </div>
+
+        <div class="logo-holder">
+            <a href="../index.html">
+                <h3>St. George Hotel</h3>
+            </a>
+
+        </div>
+        <div class="nav-links">
+            <a href="../html/gallery.html">Apartaments</a>
+            <a href="rooms.html">Rooms</a>
+        </div>
+
+    </nav>
+
+    <form id="basic-form" class="booking-container" method="POST">
+        <div class="check-in">
+            <label for="date" id="checkIn">Check-In</label>
+            <input type="date" id="checkInDate" placeholder="Check-In-Date" class="input-css" required>
+        </div>
+        <div class="check-out">
+            <label for="date" id="checkOut">Check-Out</label>
+            <input type="date" id="checkOutDate" placeholder="Check-Out-Date" class="input-css" required>
+        </div>
+
+        <div class="booking-type">
+            <label for="text" id="type">Reservation Type</label>
+            <select class="select-css" required>
+        <option value="Apartment">Apartment</option>
+        <option value="Room">Room</option>
+      </select>
+        </div>
+        <div class="adults">
+            <label for="text" id="adults">Adults</label>
+            <select class="select-css" required>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+        </div>
+        <div class="children">
+            <label for="text" id="children">Children</label>
+            <select class="select-css" required>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        </select>
+        </div>
+        <div class="search-btn">
+            <button type="submit" id="searchBtn">Check Availability</button>
+        </div>
+    </form>
+
+
+    <div class="footer-cartoon">
+        <div class="footer-wrapper">
+            <footer class="footer">
+                <div class="container-1">
+                    <div class="footer-hotel-logo">
+                        <h3>St. George Hotel</h3>
+                    </div>
+                    <div class="contacts">
+                        <h4>Contacts</h4>
+                        <a href="#">02 9282649</a>
+                        <a href="#">+ 08927473722</a>
+                        <a href="#">Vilna Zona Shkorpilovtsi, 800</a>
+                        <a href="#">stgeorge@shkorpi.com</a>
+                    </div>
+
+                    <div class="links">
+                        <h4>Links</h4>
+                        <a href="">Gallery</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Other Link</a>
+                        <a href="#">Cookies Policy</a>
+
+                    </div>
+                </div>
+
+                <div class="contact-us">
+                    <a href="#" class="contact">Contact Us</a>
+                </div>
+
+                <div class="social-media-holder">
+                    <div class="tripadvisor-logo-holder">
+                        <!---->
+                    </div>
+                    <div class="facebook-logo-holder">
+                        <!---->
+                    </div>
+                    <div class="instagram-logo-holder">
+                        <!---->
+                    </div>
+                    <div class="twitter-logo-holder">
+                        <!---->
+                    </div>
+                </div>
+
+                <div class="bottom-info">
+                    <p>&copy All rights reserved, 2020</p>
+                </div>
+
+            </footer>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js "></script>
+    <script src="js/owl.carousel.min.js "></script>
+
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/lightbox.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <title>Document</title>
+</head>
+
+<body class="rooms-gallery">
+
+    <nav class="navigation">
+
+        <nav class="navbar">
+            <span class="open-slide">
+                <a href="#" onclick="openSlideMenu()">
+                    <svg width='30' height='30'>
+                        <path d="M0,5,30,5" stroke="#fff"
+                         stroke-width="5"/>
+                        <path d="M0,14,30,14" stroke="#fff"
+                         stroke-width="5"/>
+                        <path d="M0,23,30,23" stroke="#fff"
+                         stroke-width="5"/>
+                    </svg>
+                </a>
+                </span>
+            <div class="phone-icon">
+
+            </div>
+        </nav>
+
+        <div id="sideMenu" class="side-nav">
+            <a href="#" class="btn-close" onclick="CloseSlideMenu()">&times;</a>
+            <a href="../html/gallery.html">Apartaments</a>
+            <a href="../html/rooms.html">Rooms</a>
+            <a href="../html/booking.html">Book Now</a>
+        </div>
+
+
+        <div class="logo-holder">
+            <a href="../index.html">
+                <h3>St. George Hotel</h3>
+            </a>
+
+        </div>
+        <div class="nav-links">
+            <a href="../html/gallery.html">Apartaments</a>
+            <a href="#">Rooms</a>
+        </div>
+
+        <div class="nav-reservation">
+            <a href="../html/booking.html" class="book-btn">Book Now</a>
+        </div>
+    </nav>
+
+    <section class="single-room-banner">
+        <div class="single-room-img">
+            <!---->
+        </div>
+
+    </section>
+    <form id="basic-form" class="booking-form">
+        <div class="check-in-out">
+            <div class="check-in">
+                <label for="date" id="checkIn">Check-In</label>
+                <input type="date" placeholder="Check-In-Date" class="input-css" required>
+            </div>
+            <div class="check-out">
+                <label for="date" id="checkOut">Check-Out</label>
+                <input type="date" placeholder="Check-Out-Date" class="input-css" required>
+            </div>
+        </div>
+        <div class="btn-holder">
+            <button type="submit" id="mobile-submt-btn">Submit</button>
+        </div>
+
+    </form>
+
+    <h1 class="room-text">Single Room</h1>
+
+
+
+    <main class="main-info">
+        <div class="price">
+            <h2>Price</h2>
+            <p>$50</p>
+        </div>
+        <div class="services">
+            <h2>Services</h2>
+            <p>Free Wi-Fi, TV</p>
+            <p>Room Service</p>
+            <p>Lorem ipsum dolor</p>
+            <p>Parking</p>
+        </div>
+        <div class="description">
+            <h2>Description</h2>
+            <p>Lorem ipsum, dolor sit amet cisicing elit. Tempora, error. Illo nesciucusandae.</p>
+        </div>
+        <div class="guests">
+            <h2>Guests</h2>
+            <p>2 Adults</p>
+        </div>
+    </main>
+
+
+
+
+    <main class="grid-wrapper">
+        <h2>Gallery</h2>
+
+        <div class="gallery ">
+
+            <a href="../img/room-horizontal4.jpg" data-lightbox="single-room">
+                <img src="../img/room-horizontal4.jpg">
+            </a>
+
+            <a href="../img/vertical-3.jpg" data-lightbox="single-room">
+                <img src="../img/vertical-3.jpg">
+            </a>
+
+            <a href="../img/room-horizontal.jpg">
+                <img src="../img/room-horizontal.jpg">
+            </a>
+
+            <a href="../img/room-horizontal2.jpg" data-lightbox="single-room">
+                <img src="../img/room-horizontal2.jpg">
+            </a>
+
+            <a href="../img/room-vertical2.jpg" data-lightbox="single-room">
+                <img src="../img/room-vertical2.jpg">
+            </a>
+
+            <a href="../img/room-vertical3.jpg" data-lightbox="single-room">
+                <img src="../img/room-vertical3.jpg">
+            </a>
+            <a href="../img/room-vertical4.jpg" data-lightbox="single-room">
+                <img src="../img/room-vertical4.jpg">
+            </a>
+
+            <a href="../img/room-horizontal6.jpg" data-lightbox="single-room">
+                <img src="../img/room-horizontal6.jpg">
+            </a>
+
+            <a href="../img/room-horizontal3.jpg" data-lightbox="single-room">
+                <img src="../img/room-horizontal3.jpg">
+            </a>
+            <a href="../img/room-horizontal7.jpg" data-lightbox="single-room">
+                <img src="../img/room-horizontal7.jpg">
+            </a>
+            <a href="../img/room-vertical1.jpg" data-lightbox="single-room">
+                <img src="../img/room-vertical1.jpg">
+            </a>
+
+        </div>
+
+        </div>
+    </main>
+
+    <!--Comment section-->
+    <div class="detailBox">
+        <div class="titleBox">
+            <label>Comment Box</label>
+
+        </div>
+
+        <div class="actionBox">
+            <ul class="commentList">
+                <li>
+                    <div class="commenterImage">
+                        <img src="http://placekitten.com/50/50" />
+                    </div>
+                    <div class="commentText">
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolorem tenetur neque? Officiis, porro. Amet!</p> <span class="date sub-text">on March 5th, 2014</span>
+
+                    </div>
+                </li>
+                <li>
+                    <div class="commenterImage">
+                        <img src="http://placekitten.com/45/45" />
+                    </div>
+                    <div class="commentText">
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis magnam harum itaque eveniet voluptatibus repellat voluptatem similique illum?</p> <span class="date sub-text">on March 5th, 2014</span>
+
+                    </div>
+                </li>
+                <li>
+                    <div class="commenterImage">
+                        <img src="http://placekitten.com/40/40" />
+                    </div>
+                    <div class="commentText">
+                        <p class="">Hello this is a test comment.</p> <span class="date sub-text">on March 5th, 2014</span>
+
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline" role="form">
+                <div class="form-group">
+                    <input class="form-control" type="text" placeholder="Your comments" />
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-default">Add</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer-cartoon">
+        <div class="footer-wrapper">
+            <footer class="footer">
+                <div class="container-1">
+                    <div class="footer-hotel-logo">
+                        <h3>St. George Hotel</h3>
+                    </div>
+                    <div class="contacts">
+                        <h4>Contacts</h4>
+                        <a href="#">02 9282649</a>
+                        <a href="#">+ 08927473722</a>
+                        <a href="#">Vilna Zona Shkorpilovtsi, 800</a>
+                        <a href="#">stgeorge@shkorpi.com</a>
+                    </div>
+
+                    <div class="links">
+                        <h4>Links</h4>
+                        <a href="#">Gallery</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Other Link</a>
+                        <a href="#">Cookies Policy</a>
+
+                    </div>
+                </div>
+
+                <div class="contact-us">
+                    <a href="#" class="contact">Book Now</a>
+                </div>
+
+                <div class="social-media-holder">
+                    <div class="tripadvisor-logo-holder">
+                        <!---->
+                    </div>
+                    <div class="facebook-logo-holder">
+                        <!---->
+                    </div>
+                    <div class="instagram-logo-holder">
+                        <!---->
+                    </div>
+                    <div class="twitter-logo-holder">
+                        <!---->
+                    </div>
+                </div>
+
+                <div class="bottom-info">
+                    <p>&copy All rights reserved, 2020</p>
+                </div>
+
+            </footer>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js "></script>
+    <script src="js/owl.carousel.min.js "></script>
+    <script src="../js/lightbox-plus-jquery.min.js"></script>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
